@@ -1,0 +1,21 @@
+{
+  "name": "gitit_fireship",
+  "version": "1.0.0",
+  "description": "Git It✨, how to use git and github properly by fireship!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "fireship",
+    "learing",
+    "branch",
+    "push",
+    "pull",
+    "commands"
+  ],
+  "author": "MuhdHanish",
+  "license": "ISC"
+}

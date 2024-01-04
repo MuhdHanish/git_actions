@@ -1,15 +1,15 @@
 {
   "name": "gitit_fireship",
   "version": "1.0.0",
-  "description": "Git It✨, how to use git and github properly by fireship!",
+  "description": "GitHub Actions ✨, how to use github actions to deploy a node js server in aws. This repository mainly focus to learn the basic concept of CI/CD 🚀",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "git",
     "github",
-    "fireship",
     "learing",
     "branch",
     "push",

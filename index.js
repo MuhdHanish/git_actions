@@ -15,11 +15,11 @@ const server = http.createServer((req, res) => {
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
-        timeZoneName: 'short'
+        timeZone: new Intl.DateTimeFormat().resolvedOptions().timeZone
     };
     const formattedTime = serverTime.toLocaleString('en-US', options);
-    
-    const jsonResponse = { message: 'Hello World', serverTime: formattedTime };
+
+    const jsonResponse = { message: 'Hello World', time: formattedTime };
     res.end(JSON.stringify(jsonResponse));
 });
 server.listen(port, hostname, () => console.log(`Server running at http://${hostname}:${port}`));

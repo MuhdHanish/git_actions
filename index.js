@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
-        timeZone: new Intl.DateTimeFormat().resolvedOptions().timeZone
+        timeZone: 'Asia/Kolkata'
     };
     const formattedTime = serverTime.toLocaleString('en-US', options);
 
